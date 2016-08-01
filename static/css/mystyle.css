@@ -1,0 +1,25 @@
+ body {
+  background-color: pink;
+}
+
+.img {
+  text-align: center;
+}
+.btn {
+  padding: 7px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border-width: thick;
+}
+
+.button{
+  text-align: center;
+}
+
+.info {
+  margin-left: 120px;
+  font-weight: 500;;
+  font-size: 30px;
+
+}

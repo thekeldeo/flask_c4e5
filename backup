@@ -1,0 +1,15 @@
+{% for i in range(t) %}
+        {% if i == 0 %}
+            <div class="item active">
+                <img src={{ listPerson[i].avatar }} alt="ke">
+                <h3>{{ listPerson[i].name }}</h3>
+            </div>
+        {% else %}
+            <div class="item">
+                <img src= {{listPerson[i].avatar}} alt="ke">
+                <h3>
+                    {{listPerson[i].name}}
+                </h3>
+            </div>
+        {%  endif %}
+    {% endfor %}
